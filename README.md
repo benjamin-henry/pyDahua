@@ -5,7 +5,7 @@ from pyDahua import Api, Camera
 from datacls import VideoInModeParams
 
 api = Api()
-camera = Camera("admin","**4290$$","10.1.1.65")
+camera = Camera("admin","password","192.168.1.108")
 
 req = api.init_request(camera)
 req = api.VideoInMode.setVideoInModeConfig(req)
